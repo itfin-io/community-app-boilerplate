@@ -4,7 +4,7 @@
   "title": "ITFin Community App Boilerplate",
   "description": "Simple example of the application for ITFin",
   "main": "dist/index.js",
-  "hooks": [
+  "events": [
     "employees:created"
   ],
   "image": "assets/icon.png",
