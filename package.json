@@ -1,0 +1,24 @@
+{
+  "name": "itfin-community-app-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "npm run pack && npm run zip",
+    "test": "jest",
+    "pack": "rm -rf dist && cp -R src dist",
+    "zip": "node scripts/build-zip.js",
+    "deploy": "npm run build && node scripts/deploy.js"
+  },
+  "author": "Vitalii Savchuk <esvit666@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "archiver": "^5.3.1",
+    "jest": "^29.5.0",
+    "request": "^2.88.2",
+    "vm2": "^3.9.14"
+  }
+}

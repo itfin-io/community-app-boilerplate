@@ -1,0 +1,16 @@
+{
+  "name": "itfin-community-app-boilerplate",
+  "version": "1.0.0",
+  "title": "ITFin Community App Boilerplate",
+  "description": "Simple example of the application for ITFin",
+  "main": "dist/index.js",
+  "hooks": [
+    "employees:created"
+  ],
+  "image": "assets/icon.png",
+  "api": {
+    "version": {
+      "min": "0.0.1"
+    }
+  }
+}
